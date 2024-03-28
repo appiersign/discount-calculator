@@ -34,7 +34,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 `mvn test`
 
-5. To run the build, execute 
+5. The test report can be found in the `target/site/jacoco` dir. Opening the `index.html` file in a browser display 
+   the coverage report.
+
+6. To run the build, execute 
 
 `java -jar target/app.jar`
 
